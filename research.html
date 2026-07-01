@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore academic publications and active research areas at Dinirix AI & Research. Discover breakthroughs in LLMs, Robotics, Computer Vision, and Edge AI.">
+    <meta name="keywords" content="AI Research, Academic Publications, Neuro-symbolic, LLM Research, Autonomous Systems, TinyML Papers, arXiv preprints, NeurIPS, ICML">
+    <link rel="canonical" href="https://research.dinirix.com/research.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://research.dinirix.com/research.html">
+    <meta property="og:title" content="Our Research | Dinirix AI & Research">
+    <meta property="og:description" content="Discover our latest scientific papers and active research divisions pushing the boundaries of machine intelligence.">
+    <meta property="og:image" content="images/logo.svg">
+
+    <title>Our Research | Dinirix AI & Research</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+</head>
+<body>
+
+    <!-- ==========================================
+         PRELOADER SCREEN
+         ========================================== -->
+    <div id="preloader">
+        <div class="loader-content">
+            <object data="images/logo.svg" type="image/svg+xml" class="loader-logo" aria-label="Dinirix AI & Research Logo"></object>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================
+         STICKY HEADER & NAVIGATION
+         ========================================== -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo-link">
+                <img src="images/logo.svg" alt="Dinirix AI & Research Logo" class="logo-img">
+                <span class="logo-text gradient-text">DINIRIX</span>
+            </a>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="about.html">About</a></li>
+                    <li class="nav-item"><a href="services.html">Services</a></li>
+                    <li class="nav-item"><a href="research.html" class="active">Research</a></li>
+                    <li class="nav-item"><a href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a href="careers.html">Careers</a></li>
+                    <li class="nav-item"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <button class="hamburger" aria-label="Toggle Navigation Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ==========================================
+         HERO SECTION (INNER PAGE STYLE)
+         ========================================== -->
+    <section class="hero" style="min-height: 55vh; padding-top: 120px;">
+        <canvas id="particle-canvas"></canvas>
+        <div class="container" style="position: relative; z-index: 2;">
+            <div style="text-align: center; max-width: 800px; margin: 0 auto;" class="reveal fade-up">
+                <div class="hero-tag">
+                    <span></span>Scientific Discovery
+                </div>
+                <h1 style="font-size: 3.5rem; margin-bottom: 1.5rem;">AI &amp; Computational Research</h1>
+                <p class="hero-subtitle" style="margin-bottom: 0;">
+                    Conducting fundamental research to establish the next generation of safe, reliable, and energy-efficient neural architectures.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         8 RESEARCH AREAS GRID
+         ========================================== -->
+    <section class="section-padding bg-sec">
+        <div class="container">
+            <h2 class="section-title reveal fade-up">Active Research Areas</h2>
+            <p style="text-align: center; max-width: 600px; margin: -2rem auto 4rem auto;" class="reveal fade-up">
+                Our labs are structured into eight specialized research divisions, each focusing on a core facet of machine intelligence.
+            </p>
+            
+            <div class="research-areas-grid">
+                <!-- Area 1: Computer Vision -->
+                <div class="glow-card research-area-card glass-card reveal fade-up">
+                    <div class="research-area-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+                    </div>
+                    <h4>Computer Vision</h4>
+                    <p>Pioneering multi-spectral image segmentation, real-time object tracking, and deep spatial mapping for dynamic environment interpretation.</p>
+                </div>
+
+                <!-- Area 2: Large Language Models -->
+                <div class="glow-card research-area-card glass-card reveal fade-up" style="transition-delay: 0.1s;">
+                    <div class="research-area-icon" style="color: var(--secondary);">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                    </div>
+                    <h4>Large Language Models</h4>
+                    <p>Investigating neuro-symbolic reasoning, token-efficient pre-training, and context extension techniques in generative transformers.</p>
+                </div>
+
+                <!-- Area 3: Robotics -->
+                <div class="glow-card research-area-card glass-card reveal fade-up" style="transition-delay: 0.2s;">
+                    <div class="research-area-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2" ry="2"></rect><path d="M12 2v9M8 5h8"></path></svg>
+                    </div>
+                    <h4>Robotics &amp; Control</h4>
+                    <p>Developing reinforcement learning frameworks for physical quadrupeds, dexterous manipulators, and zero-shot sim-to-real transfer.</p>
+                </div>
+
+                <!-- Area 4: Healthcare AI -->
+                <div class="glow-card research-area-card glass-card reveal fade-up" style="transition-delay: 0.3s;">
+                    <div class="research-area-icon" style="color: var(--secondary);">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+                    </div>
+                    <h4>Healthcare AI</h4>
+                    <p>Applying generative diffusion models to de novo protein folding, disease pathway prediction, and rapid diagnostic imaging audits.</p>
+                </div>
+
+                <!-- Area 5: Smart Cities -->
+                <div class="glow-card research-area-card glass-card reveal fade-up">
+                    <div class="research-area-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                    </div>
+                    <h4>Smart Cities</h4>
+                    <p>Designing decentralized, multi-agent systems for grid load balancing, traffic congestion forecasting, and autonomous public transport routing.</p>
+                </div>
+
+                <!-- Area 6: Autonomous Systems -->
+                <div class="glow-card research-area-card glass-card reveal fade-up" style="transition-delay: 0.1s;">
+                    <div class="research-area-icon" style="color: var(--secondary);">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+                    </div>
+                    <h4>Autonomous Systems</h4>
+                    <p>Building safety-critical control loops, sensor fusion models (Lidar/Radar/Camera), and trajectory planners for autonomous vehicles.</p>
+                </div>
+
+                <!-- Area 7: TinyML -->
+                <div class="glow-card research-area-card glass-card reveal fade-up" style="transition-delay: 0.2s;">
+                    <div class="research-area-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+                    </div>
+                    <h4>TinyML</h4>
+                    <p>Exploring extreme neural network compression, quantization-aware training, and micro-controller deployment of deep models.</p>
+                </div>
+
+                <!-- Area 8: Edge AI -->
+                <div class="glow-card research-area-card glass-card reveal fade-up" style="transition-delay: 0.3s;">
+                    <div class="research-area-icon" style="color: var(--secondary);">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    </div>
+                    <h4>Edge AI</h4>
+                    <p>Developing distributed, privacy-preserving federated learning systems that train models directly on local hardware nodes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         RESEARCH PUBLICATIONS SECTION
+         ========================================== -->
+    <section class="section-padding publications-section">
+        <div class="container">
+            <h2 class="section-title reveal fade-up">Academic Publications</h2>
+            <p style="text-align: center; max-width: 600px; margin: -2rem auto 4rem auto;" class="reveal fade-up">
+                A selection of our peer-reviewed papers published in NeurIPS, ICML, CVPR, and leading journals.
+            </p>
+            
+            <div class="pubs-list">
+                <!-- Publication 1 -->
+                <div class="glass-card pub-card reveal fade-up">
+                    <div class="pub-info">
+                        <div class="pub-meta">NeurIPS 2025 (Oral)</div>
+                        <div class="pub-title">Attention is All You Logic: Neuro-Symbolic Integration in Large Transformers</div>
+                        <div class="pub-authors">Dr. Sarah Jenkins, Dr. Ethan Cole, Marcus Thorne</div>
+                    </div>
+                    <div class="pub-actions">
+                        <a href="#" class="btn btn-secondary" style="padding: 0.5rem 1.2rem; font-size: 0.85rem;">PDF</a>
+                        <button class="btn btn-secondary" style="padding: 0.5rem 1.2rem; font-size: 0.85rem;" onclick="alert('Citation copied to clipboard:\n\nJenkins, S., Cole, E., & Thorne, M. (2025). Attention is All You Logic: Neuro-Symbolic Integration in Large Transformers. In Advances in Neural Information Processing Systems (NeurIPS).')">Cite</button>
+                    </div>
+                </div>
+
+                <!-- Publication 2 -->
+                <div class="glass-card pub-card reveal fade-up">
+                    <div class="pub-info">
+                        <div class="pub-meta">ICML 2025</div>
+                        <div class="pub-title">Zero-Shot Sim-to-Real Transfer for Quadrupedal Locomotion on Slippery Terrains</div>
+                        <div class="pub-authors">Dr. Evelyn Vance, Dr. Sarah Jenkins</div>
+                    </div>
+                    <div class="pub-actions">
+                        <a href="#" class="btn btn-secondary" style="padding: 0.5rem 1.2rem; font-size: 0.85rem;">PDF</a>
+                        <button class="btn btn-secondary" style="padding: 0.5rem 1.2rem; font-size: 0.85rem;" onclick="alert('Citation copied to clipboard:\n\nVance, E., & Jenkins, S. (2025). Zero-Shot Sim-to-Real Transfer for Quadrupedal Locomotion on Slippery Terrains. In International Conference on Machine Learning (ICML).')">Cite</button>
+                    </div>
+                </div>
+
+                <!-- Publication 3 -->
+                <div class="glass-card pub-card reveal fade-up">
+                    <div class="pub-info">
+                        <div class="pub-meta">CVPR 2024</div>
+                        <div class="pub-title">Sparse Convolutional Networks for Real-time 3D LiDAR Point Cloud Segmentation</div>
+                        <div class="pub-authors">Marcus Thorne, Dr. Ethan Cole</div>
+                    </div>
+                    <div class="pub-actions">
+                        <a href="#" class="btn btn-secondary" style="padding: 0.5rem 1.2rem; font-size: 0.85rem;">PDF</a>
+                        <button class="btn btn-secondary" style="padding: 0.5rem 1.2rem; font-size: 0.85rem;" onclick="alert('Citation copied to clipboard:\n\nThorne, M., & Cole, E. (2024). Sparse Convolutional Networks for Real-time 3D LiDAR Point Cloud Segmentation. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR).')">Cite</button>
+                    </div>
+                </div>
+
+                <!-- Publication 4 -->
+                <div class="glass-card pub-card reveal fade-up">
+                    <div class="pub-info">
+                        <div class="pub-meta">Journal of AI Medicine 2024</div>
+                        <div class="pub-title">DeepGenerative: De Novo Protein Structure Synthesis via Differentiable Diffusion</div>
+                        <div class="pub-authors">Dr. Evelyn Vance, Dr. Ethan Cole</div>
+                    </div>
+                    <div class="pub-actions">
+                        <a href="#" class="btn btn-secondary" style="padding: 0.5rem 1.2rem; font-size: 0.85rem;">PDF</a>
+                        <button class="btn btn-secondary" style="padding: 0.5rem 1.2rem; font-size: 0.85rem;" onclick="alert('Citation copied to clipboard:\n\nVance, E., & Cole, E. (2024). DeepGenerative: De Novo Protein Structure Synthesis via Differentiable Diffusion. Journal of AI Medicine, 12(4), 284-299.')">Cite</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         COLLABORATE (CTA)
+         ========================================== -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="cta-glass reveal fade-up">
+                <h2 class="gradient-text">Collaborate With Our Laboratories</h2>
+                <p>Are you an academic researcher, university department, or open-source consortium? We actively sponsor joint research, PhD internships, and collaborative compute-grants. Let's push the boundaries together.</p>
+                <div class="hero-buttons" style="justify-content: center;">
+                    <a href="careers.html" class="btn btn-primary">View Internships</a>
+                    <a href="contact.html" class="btn btn-secondary">Contact Labs</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         FOOTER SECTION
+         ========================================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Col 1: Brand info -->
+                <div class="footer-brand">
+                    <a href="index.html" class="logo-link">
+                        <img src="images/logo.svg" alt="Dinirix Logo" class="logo-img">
+                        <span class="logo-text gradient-text">DINIRIX</span>
+                    </a>
+                    <p>The official artificial intelligence research division of DinirixTech Labs. Shaping a better tomorrow through science, mathematical rigor, and ethical alignment.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+                        <a href="#" class="social-icon" aria-label="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a>
+                        <a href="#" class="social-icon" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+                    </div>
+                </div>
+                <!-- Col 2: Services -->
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">AI &amp; ML Consulting</a></li>
+                        <li><a href="services.html">Deep Learning Solutions</a></li>
+                        <li><a href="services.html">Computer Vision Systems</a></li>
+                        <li><a href="services.html">NLP &amp; Text Synthesis</a></li>
+                        <li><a href="services.html">Custom R&amp;D Contracts</a></li>
+                    </ul>
+                </div>
+                <!-- Col 3: Research Areas -->
+                <div class="footer-col">
+                    <h4>Research</h4>
+                    <ul class="footer-links">
+                        <li><a href="research.html">Large Language Models</a></li>
+                        <li><a href="research.html">Autonomous Robotics</a></li>
+                        <li><a href="research.html">Healthcare Diagnostics</a></li>
+                        <li><a href="research.html">TinyML &amp; Edge Systems</a></li>
+                        <li><a href="research.html">Academic Publications</a></li>
+                    </ul>
+                </div>
+                <!-- Col 4: Newsletter -->
+                <div class="footer-col footer-newsletter">
+                    <h4>Stay Updated</h4>
+                    <p>Subscribe to our monthly briefing for insights on our latest open-source models and papers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="researcher@institute.edu" required aria-label="Email address for newsletter">
+                        <button type="submit" class="btn btn-primary" style="padding: 0.85rem 1.5rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Bottom copyrights -->
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dinirix AI &amp; Research. All Rights Reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms &amp; Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==========================================
+         BACK TO TOP BUTTON
+         ========================================== -->
+    <button id="back-to-top" aria-label="Scroll back to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>

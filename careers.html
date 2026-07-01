@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join the elite team of scientists and developers at Dinirix AI & Research. Discover open positions, internship programs, and benefits of working with us.">
+    <meta name="keywords" content="AI Careers, Deep Learning Jobs, Machine Learning Internships, Research Scientist Openings, Robotics Software Engineer, Work at Dinirix">
+    <link rel="canonical" href="https://research.dinirix.com/careers.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://research.dinirix.com/careers.html">
+    <meta property="og:title" content="Careers | Dinirix AI & Research">
+    <meta property="og:description" content="Join us in shaping the future of AI. View our open positions in research, engineering, and product.">
+    <meta property="og:image" content="images/logo.svg">
+
+    <title>Careers | Dinirix AI & Research</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+</head>
+<body>
+
+    <!-- ==========================================
+         PRELOADER SCREEN
+         ========================================== -->
+    <div id="preloader">
+        <div class="loader-content">
+            <object data="images/logo.svg" type="image/svg+xml" class="loader-logo" aria-label="Dinirix AI & Research Logo"></object>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================
+         STICKY HEADER & NAVIGATION
+         ========================================== -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo-link">
+                <img src="images/logo.svg" alt="Dinirix AI & Research Logo" class="logo-img">
+                <span class="logo-text gradient-text">DINIRIX</span>
+            </a>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="about.html">About</a></li>
+                    <li class="nav-item"><a href="services.html">Services</a></li>
+                    <li class="nav-item"><a href="research.html">Research</a></li>
+                    <li class="nav-item"><a href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a href="careers.html" class="active">Careers</a></li>
+                    <li class="nav-item"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <button class="hamburger" aria-label="Toggle Navigation Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ==========================================
+         HERO SECTION (INNER PAGE STYLE)
+         ========================================== -->
+    <section class="hero" style="min-height: 55vh; padding-top: 120px;">
+        <canvas id="particle-canvas"></canvas>
+        <div class="container" style="position: relative; z-index: 2;">
+            <div class="careers-hero reveal fade-up">
+                <div class="hero-tag">
+                    <span></span>Shape the Future
+                </div>
+                <h1 style="font-size: 3.5rem; margin-bottom: 1.5rem;">Join Our Research Labs</h1>
+                <p class="hero-subtitle" style="margin-bottom: 0;">
+                    We are looking for passionate, rigorous researchers, systems architects, and engineers who want to solve the hardest problems in computer science and build safe artificial general intelligence.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         INTERNSHIP PROGRAM SECTION
+         ========================================== -->
+    <section class="section-padding bg-sec">
+        <div class="container">
+            <div class="intro-grid">
+                <div class="intro-text-block reveal fade-right">
+                    <h2 class="section-title" style="text-align: left; margin-bottom: 2rem;">Research Internship Program</h2>
+                    <h3>Mentorship, compute resources, and publishing freedom.</h3>
+                    <p>
+                        Our specialized **AI Research Internship** offers graduate and PhD students the opportunity to work directly with senior scientists on open research problems. Interns at Dinirix are treated as full-time researchers, with access to our state-of-the-art GPU clusters, private datasets, and dedicated compute budgets.
+                    </p>
+                    <p>
+                        We encourage our interns to publish their findings. A significant portion of our internship projects result in co-authored papers submitted to conferences like NeurIPS, ICML, and CVPR.
+                    </p>
+                </div>
+                <div class="intro-text-block reveal fade-left" style="display: flex; justify-content: center; align-items: center;">
+                    <div class="glass-card" style="border-color: var(--primary); max-width: 450px;">
+                        <h4 style="font-size: 1.3rem; margin-bottom: 1rem;" class="gradient-text">Internship Details</h4>
+                        <ul style="list-style: none; display: flex; flex-direction: column; gap: 1rem; color: var(--text-muted);">
+                            <li><strong>✓ Duration:</strong> 12 to 24 Weeks (Flexible)</li>
+                            <li><strong>✓ Target:</strong> PhD, Master's, or Outstanding Bachelor's</li>
+                            <li><strong>✓ Focus:</strong> LLM Reasoning, Sim-to-Real Control, TinyML</li>
+                            <li><strong>✓ Benefits:</strong> Competitive stipend, housing allowance, compute grants</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         BENEFITS SECTION
+         ========================================== -->
+    <section class="section-padding">
+        <div class="container">
+            <h2 class="section-title reveal fade-up">Why Work With Us</h2>
+            <p style="text-align: center; max-width: 600px; margin: -2rem auto 4rem auto;" class="reveal fade-up">
+                We provide an environment designed to support cognitive freedom, personal growth, and cutting-edge experimentation.
+            </p>
+            
+            <div class="benefits-grid">
+                <!-- Benefit 1 -->
+                <div class="glass-card benefit-card reveal fade-up">
+                    <div class="benefit-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+                    </div>
+                    <h4>Massive Compute Budget</h4>
+                    <p>Access our private H100 GPU cluster nodes. No queue bottlenecks. If your experiment has merit, you get the compute.</p>
+                </div>
+                <!-- Benefit 2 -->
+                <div class="glass-card benefit-card reveal fade-up" style="transition-delay: 0.1s;">
+                    <div class="benefit-icon" style="color: var(--secondary);">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                    </div>
+                    <h4>Academic Freedom</h4>
+                    <p>We actively encourage publishing. We believe that open scientific exchange is vital for AGI safety and acceleration.</p>
+                </div>
+                <!-- Benefit 3 -->
+                <div class="glass-card benefit-card reveal fade-up" style="transition-delay: 0.2s;">
+                    <div class="benefit-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    </div>
+                    <h4>Health &amp; Wellness</h4>
+                    <p>Comprehensive medical, dental, and vision insurance plans for you and your family, alongside mental health stipends.</p>
+                </div>
+                <!-- Benefit 4 -->
+                <div class="glass-card benefit-card reveal fade-up" style="transition-delay: 0.3s;">
+                    <div class="benefit-icon" style="color: var(--secondary);">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cy="12" r="10" cx="12"></circle><path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01"></path></svg>
+                    </div>
+                    <h4>Hybrid Flexibility</h4>
+                    <p>Work from our state-of-the-art labs in Munich, Tokyo, or Silicon Valley, or collaborate remotely from anywhere.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         OPEN POSITIONS FILTERABLE GRID
+         ========================================== -->
+    <section class="section-padding bg-sec" id="open-positions">
+        <div class="container">
+            <h2 class="section-title reveal fade-up">Open Positions</h2>
+            
+            <!-- Category Filters -->
+            <div class="job-filters reveal fade-up">
+                <button class="filter-btn active" data-filter="all">All Departments</button>
+                <button class="filter-btn" data-filter="research">Research</button>
+                <button class="filter-btn" data-filter="engineering">Engineering</button>
+                <button class="filter-btn" data-filter="product">Product</button>
+            </div>
+            
+            <div class="jobs-grid">
+                <!-- Job 1 -->
+                <div class="glass-card job-card reveal fade-up" data-category="research">
+                    <div class="job-title-meta">
+                        <h3>Senior Research Scientist (LLM Reasoning)</h3>
+                        <div class="job-details">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Silicon Valley / Remote</span>
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> Full-Time</span>
+                        </div>
+                    </div>
+                    <a href="#application-form" class="btn btn-primary">Apply Now</a>
+                </div>
+
+                <!-- Job 2 -->
+                <div class="glass-card job-card reveal fade-up" data-category="engineering">
+                    <div class="job-title-meta">
+                        <h3>AI Engineer (Computer Vision)</h3>
+                        <div class="job-details">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Munich Lab</span>
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> Full-Time</span>
+                        </div>
+                    </div>
+                    <a href="#application-form" class="btn btn-primary">Apply Now</a>
+                </div>
+
+                <!-- Job 3 -->
+                <div class="glass-card job-card reveal fade-up" data-category="engineering">
+                    <div class="job-title-meta">
+                        <h3>Robotics Software Engineer (RL Control)</h3>
+                        <div class="job-details">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Tokyo Lab</span>
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> Full-Time</span>
+                        </div>
+                    </div>
+                    <a href="#application-form" class="btn btn-primary">Apply Now</a>
+                </div>
+
+                <!-- Job 4 -->
+                <div class="glass-card job-card reveal fade-up" data-category="research">
+                    <div class="job-title-meta">
+                        <h3>Research Intern (Generative AI / Diffusion)</h3>
+                        <div class="job-details">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Silicon Valley / Hybrid</span>
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> Internship</span>
+                        </div>
+                    </div>
+                    <a href="#application-form" class="btn btn-primary">Apply Now</a>
+                </div>
+
+                <!-- Job 5 -->
+                <div class="glass-card job-card reveal fade-up" data-category="product">
+                    <div class="job-title-meta">
+                        <h3>AI Product Manager (Enterprise API)</h3>
+                        <div class="job-details">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Silicon Valley / Hybrid</span>
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> Full-Time</span>
+                        </div>
+                    </div>
+                    <a href="#application-form" class="btn btn-primary">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         HIRING PROCESS SECTION
+         ========================================== -->
+    <section class="section-padding">
+        <div class="container">
+            <h2 class="section-title reveal fade-up">Our Hiring Process</h2>
+            <p style="text-align: center; max-width: 600px; margin: -2rem auto 4rem auto;" class="reveal fade-up">
+                A transparent, rigorous, and collaborative evaluation pipeline designed to align our values and capabilities.
+            </p>
+            
+            <div class="process-grid reveal fade-up">
+                <!-- Step 1 -->
+                <div class="process-card">
+                    <div class="process-step">1</div>
+                    <h4>Online Application</h4>
+                    <p>Submit your CV, GitHub repositories, or academic preprints. Our research coordinators review every application.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="process-card">
+                    <div class="process-step" style="background: var(--primary); box-shadow: 0 0 15px rgba(0, 200, 255, 0.3);">2</div>
+                    <h4>Technical Evaluation</h4>
+                    <p>A deep-dive call with a senior engineer covering algorithmic code or reviewing one of your past publications.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="process-card">
+                    <div class="process-step">3</div>
+                    <h4>Panel Presentation</h4>
+                    <p>Present your past research or software architecture to a panel of our scientists, followed by Q&amp;A.</p>
+                </div>
+                <!-- Step 4 -->
+                <div class="process-card">
+                    <div class="process-step" style="background: var(--primary); box-shadow: 0 0 15px rgba(0, 200, 255, 0.3);">4</div>
+                    <h4>Alignment &amp; Offer</h4>
+                    <p>A conversation with our directors regarding team fit, long-term goals, compensation, and onboarding details.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         QUICK APPLY FORM
+         ========================================== -->
+    <section class="section-padding bg-sec" id="application-form">
+        <div class="container" style="max-width: 700px;">
+            <div class="glass-card reveal fade-up" style="border-color: var(--primary);">
+                <h3 style="font-size: 1.8rem; margin-bottom: 2rem; text-align: center;" class="gradient-text">Quick Application</h3>
+                
+                <form class="contact-form" id="dinirix-careers-form" onsubmit="event.preventDefault(); alert('Application submitted successfully! Our recruiting team will review your portfolio.'); this.reset();">
+                    <div class="form-group">
+                        <label for="app-name">Full Name</label>
+                        <input type="text" id="app-name" class="form-control" placeholder="Dr. Sophia Carter" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="app-email">Email Address</label>
+                        <input type="email" id="app-email" class="form-control" placeholder="sophia@university.edu" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="app-position">Target Position</label>
+                        <select id="app-position" class="form-control" required style="background-color: #111827; color: white;">
+                            <option value="">Select a role...</option>
+                            <option value="scientist">Senior Research Scientist (LLM Reasoning)</option>
+                            <option value="engineer-cv">AI Engineer (Computer Vision)</option>
+                            <option value="engineer-robotics">Robotics Software Engineer (RL Control)</option>
+                            <option value="intern">Research Intern (Generative AI)</option>
+                            <option value="pm">AI Product Manager (Enterprise API)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="app-resume">Resume / CV URL</label>
+                        <input type="url" id="app-resume" class="form-control" placeholder="https://drive.google.com/cv.pdf" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="app-portfolio">Portfolio / GitHub / Google Scholar URL</label>
+                        <input type="url" id="app-portfolio" class="form-control" placeholder="https://scholar.google.com/citations..." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="app-message">Cover Note / Research Interests</label>
+                        <textarea id="app-message" class="form-control" placeholder="Briefly describe your research interests, compute requirements, or past neural architectures..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary" style="margin-top: 1rem; width: 100%;">Submit Application</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         FOOTER SECTION
+         ========================================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Col 1: Brand info -->
+                <div class="footer-brand">
+                    <a href="index.html" class="logo-link">
+                        <img src="images/logo.svg" alt="Dinirix Logo" class="logo-img">
+                        <span class="logo-text gradient-text">DINIRIX</span>
+                    </a>
+                    <p>The official artificial intelligence research division of DinirixTech Labs. Shaping a better tomorrow through science, mathematical rigor, and ethical alignment.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+                        <a href="#" class="social-icon" aria-label="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a>
+                        <a href="#" class="social-icon" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+                    </div>
+                </div>
+                <!-- Col 2: Services -->
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">AI &amp; ML Consulting</a></li>
+                        <li><a href="services.html">Deep Learning Solutions</a></li>
+                        <li><a href="services.html">Computer Vision Systems</a></li>
+                        <li><a href="services.html">NLP &amp; Text Synthesis</a></li>
+                        <li><a href="services.html">Custom R&amp;D Contracts</a></li>
+                    </ul>
+                </div>
+                <!-- Col 3: Research Areas -->
+                <div class="footer-col">
+                    <h4>Research</h4>
+                    <ul class="footer-links">
+                        <li><a href="research.html">Large Language Models</a></li>
+                        <li><a href="research.html">Autonomous Robotics</a></li>
+                        <li><a href="research.html">Healthcare Diagnostics</a></li>
+                        <li><a href="research.html">TinyML &amp; Edge Systems</a></li>
+                        <li><a href="research.html">Academic Publications</a></li>
+                    </ul>
+                </div>
+                <!-- Col 4: Newsletter -->
+                <div class="footer-col footer-newsletter">
+                    <h4>Stay Updated</h4>
+                    <p>Subscribe to our monthly briefing for insights on our latest open-source models and papers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="researcher@institute.edu" required aria-label="Email address for newsletter">
+                        <button type="submit" class="btn btn-primary" style="padding: 0.85rem 1.5rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Bottom copyrights -->
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dinirix AI &amp; Research. All Rights Reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms &amp; Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==========================================
+         BACK TO TOP BUTTON
+         ========================================== -->
+    <button id="back-to-top" aria-label="Scroll back to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>

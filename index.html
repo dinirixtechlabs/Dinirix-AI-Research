@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dinirix AI & Research - A premium corporate AI research division of DinirixTech Labs. Shaping the future through ethical, safe, and state-of-the-art artificial intelligence.">
+    <meta name="keywords" content="Dinirix, Dinirix AI, Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, Robotics, Generative AI, AI Research">
+    <link rel="canonical" href="https://research.dinirix.com/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://research.dinirix.com/">
+    <meta property="og:title" content="Dinirix AI & Research | Shaping the Future of Intelligence">
+    <meta property="og:description" content="Pioneering the next frontier of Artificial Intelligence and deep learning. Discover our open-source research and enterprise AI solutions.">
+    <meta property="og:image" content="images/logo.svg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://research.dinirix.com/">
+    <meta property="twitter:title" content="Dinirix AI & Research | Shaping the Future of Intelligence">
+    <meta property="twitter:description" content="Pioneering the next frontier of Artificial Intelligence and deep learning. Discover our open-source research and enterprise AI solutions.">
+    <meta property="twitter:image" content="images/logo.svg">
+
+    <title>Dinirix AI & Research | Shaping the Future of Intelligence</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+</head>
+<body>
+
+    <!-- ==========================================
+         PRELOADER SCREEN
+         ========================================== -->
+    <div id="preloader">
+        <div class="loader-content">
+            <object data="images/logo.svg" type="image/svg+xml" class="loader-logo" aria-label="Dinirix AI & Research Logo"></object>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================
+         STICKY HEADER & NAVIGATION
+         ========================================== -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo-link">
+                <img src="images/logo.svg" alt="Dinirix AI & Research Logo" class="logo-img">
+                <span class="logo-text gradient-text">DINIRIX</span>
+            </a>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="active">Home</a></li>
+                    <li class="nav-item"><a href="about.html">About</a></li>
+                    <li class="nav-item"><a href="services.html">Services</a></li>
+                    <li class="nav-item"><a href="research.html">Research</a></li>
+                    <li class="nav-item"><a href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a href="careers.html">Careers</a></li>
+                    <li class="nav-item"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <button class="hamburger" aria-label="Toggle Navigation Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ==========================================
+         HERO SECTION
+         ========================================== -->
+    <section class="hero">
+        <canvas id="particle-canvas"></canvas>
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content reveal fade-up">
+                    <div class="hero-tag">
+                        <span></span>Pioneering Autonomous Systems
+                    </div>
+                    <h1>
+                        The Next Frontier of <br>
+                        <span class="typing-text gradient-text"></span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Dinirix AI & Research is shaping the future of humanity through safe, ethical, and groundbreaking artificial intelligence. We translate complex mathematics into real-world applications that solve global challenges.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="research.html" class="btn btn-primary">Explore Research</a>
+                        <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-visual reveal fade-up">
+                    <div class="hero-orb-container">
+                        <div class="hero-orb"></div>
+                        <img src="images/logo.svg" alt="Glowing Dinirix Logo" class="hero-logo-glowing">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         COMPANY INTRODUCTION & MISSION/VISION
+         ========================================== -->
+    <section class="section-padding bg-sec">
+        <div class="container">
+            <div class="intro-grid">
+                <div class="intro-text-block reveal fade-right">
+                    <h2 class="section-title" style="text-align: left; margin-bottom: 2rem;">Redefining Possible</h2>
+                    <h3>Dinirix AI & Research represents the pinnacle of technological curiosity.</h3>
+                    <p>
+                        Operating as the core scientific division of DinirixTech Labs, we bridge the gap between academic theory and enterprise scalability. Our team consists of world-class researchers, engineers, and ethicists dedicated to building systems that learn, adapt, and co-exist harmoniously with human society.
+                    </p>
+                    <p>
+                        We believe that the development of Artificial General Intelligence (AGI) must be guided by collaborative transparency and safety-first alignment. Our models are built to empower industries, accelerate scientific discovery, and secure digital infrastructures.
+                    </p>
+                    <a href="about.html" class="btn btn-secondary">Learn Our Story</a>
+                </div>
+                
+                <div class="mission-vision-grid reveal fade-left">
+                    <div class="glass-card mv-card">
+                        <div class="mv-icon-wrapper">
+                            <!-- Target Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>
+                        </div>
+                        <div class="mv-content">
+                            <h4>Our Mission</h4>
+                            <p>To develop general-purpose AI systems that act as cognitive accelerators for human capability, ensuring benefits are distributed equitably across global communities.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="glass-card mv-card">
+                        <div class="mv-icon-wrapper" style="background: rgba(0, 200, 255, 0.1); border-color: rgba(0, 200, 255, 0.2); color: var(--primary);">
+                            <!-- Eye Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                        </div>
+                        <div class="mv-content">
+                            <h4>Our Vision</h4>
+                            <p>To establish a symbiotic relationship between humans and machine intelligence, where cognitive barriers are dismantled to solve humanity's greatest scientific questions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         AI TECHNOLOGIES SECTION
+         ========================================== -->
+    <section class="section-padding">
+        <div class="container">
+            <h2 class="section-title reveal fade-up">Core AI Technologies</h2>
+            <p style="text-align: center; max-width: 600px; margin: -2rem auto 4rem auto;" class="reveal fade-up">
+                Our scientific inquiries span across multiple disciplines of computational science, pushing the boundaries of what machines can perceive and process.
+            </p>
+            
+            <div class="tech-grid">
+                <!-- Tech 1 -->
+                <div class="glow-card tech-card reveal fade-up">
+                    <div class="tech-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                    </div>
+                    <h4>Artificial Intelligence</h4>
+                    <p>Designing cognitive architectures capable of reasoning, planning, and adaptive decision-making.</p>
+                </div>
+                <!-- Tech 2 -->
+                <div class="glow-card tech-card reveal fade-up" style="transition-delay: 0.1s;">
+                    <div class="tech-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                    </div>
+                    <h4>Machine Learning</h4>
+                    <p>Developing predictive algorithms that learn from massive data streams with minimal supervision.</p>
+                </div>
+                <!-- Tech 3 -->
+                <div class="glow-card tech-card reveal fade-up" style="transition-delay: 0.2s;">
+                    <div class="tech-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"></path></svg>
+                    </div>
+                    <h4>Deep Learning</h4>
+                    <p>Structuring multi-layered deep neural networks for complex pattern extraction and abstraction.</p>
+                </div>
+                <!-- Tech 4 -->
+                <div class="glow-card tech-card reveal fade-up" style="transition-delay: 0.3s;">
+                    <div class="tech-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+                    </div>
+                    <h4>Computer Vision</h4>
+                    <p>Training visual models to interpret and react to high-dimensional spatial data in real time.</p>
+                </div>
+                <!-- Tech 5 -->
+                <div class="glow-card tech-card reveal fade-up">
+                    <div class="tech-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                    </div>
+                    <h4>NLP</h4>
+                    <p>Enabling deep semantic understanding, translation, and text generation in human languages.</p>
+                </div>
+                <!-- Tech 6 -->
+                <div class="glow-card tech-card reveal fade-up" style="transition-delay: 0.1s;">
+                    <div class="tech-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                    </div>
+                    <h4>Generative AI</h4>
+                    <p>Creating multimodal engines capable of synthesizing realistic text, code, audio, and images.</p>
+                </div>
+                <!-- Tech 7 -->
+                <div class="glow-card tech-card reveal fade-up" style="transition-delay: 0.2s;">
+                    <div class="tech-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2" ry="2"></rect><path d="M12 2v9M8 5h8"></path></svg>
+                    </div>
+                    <h4>Robotics</h4>
+                    <p>Integrating neural controllers into physical systems for autonomous movement and manipulation.</p>
+                </div>
+                <!-- Tech 8 -->
+                <div class="glow-card tech-card reveal fade-up" style="transition-delay: 0.3s;">
+                    <div class="tech-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+                    </div>
+                    <h4>Edge AI</h4>
+                    <p>Optimizing deep neural networks to execute on low-power, localized hardware nodes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         WHY CHOOSE US (FEATURE GRID)
+         ========================================== -->
+    <section class="section-padding bg-sec">
+        <div class="container">
+            <h2 class="section-title reveal fade-up">Why Dinirix AI &amp; Research</h2>
+            <p style="text-align: center; max-width: 600px; margin: -2rem auto 4rem auto;" class="reveal fade-up">
+                We combine scientific rigor with commercial viability, offering an ecosystem designed for breakthrough innovations.
+            </p>
+            
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card reveal fade-up">
+                    <div class="feature-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path><line x1="12" y1="2" x2="12" y2="12"></line></svg>
+                    </div>
+                    <h4>Uncompromising Innovation</h4>
+                    <p>We do not just adopt technology; we invent it. Our teams work on the bleeding edge of computer science to discover new mathematical models.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="feature-card reveal fade-up" style="transition-delay: 0.1s;">
+                    <div class="feature-icon-wrapper" style="color: var(--secondary);">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                    </div>
+                    <h4>Research Driven</h4>
+                    <p>All our products are backed by peer-reviewed academic papers. We prioritize theoretical correctness and rigorous testing over marketing hype.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="feature-card reveal fade-up" style="transition-delay: 0.2s;">
+                    <div class="feature-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                    </div>
+                    <h4>Expert Team</h4>
+                    <p>Our labs house alumni from top global research institutes, PhDs in mathematics, and experienced systems architects specializing in distributed computing.</p>
+                </div>
+                <!-- Feature 4 -->
+                <div class="feature-card reveal fade-up">
+                    <div class="feature-icon-wrapper" style="color: var(--secondary);">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    </div>
+                    <h4>Ethical AI Framework</h4>
+                    <p>We implement strict safety guardrails. Our internal alignment committee reviews all neural models to guarantee compliance with human rights and bias mitigation.</p>
+                </div>
+                <!-- Feature 5 -->
+                <div class="feature-card reveal fade-up" style="transition-delay: 0.1s;">
+                    <div class="feature-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                    </div>
+                    <h4>Global Vision</h4>
+                    <p>We collaborate with intergovernmental bodies, universities, and open-source consortiums globally, advocating for standardized AI security and access.</p>
+                </div>
+                <!-- Feature 6 -->
+                <div class="feature-card reveal fade-up" style="transition-delay: 0.2s;">
+                    <div class="feature-icon-wrapper" style="color: var(--secondary);">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                    </div>
+                    <h4>Enterprise Scale</h4>
+                    <p>Our research is built on highly scalable infrastructure, allowing seamless API integration and customized model deployments for fortune 500 companies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         LATEST RESEARCH SECTION
+         ========================================== -->
+    <section class="section-padding">
+        <div class="container">
+            <h2 class="section-title reveal fade-up">Latest Research Publications</h2>
+            <p style="text-align: center; max-width: 600px; margin: -2rem auto 4rem auto;" class="reveal fade-up">
+                Discover the latest scientific breakthroughs published by our researchers in leading global AI journals.
+            </p>
+            
+            <div class="research-grid">
+                <!-- Research Card 1 -->
+                <div class="glass-card research-card reveal fade-up">
+                    <div class="research-img-wrapper">
+                        <img src="images/logo.svg" style="background-color: #0d1226; padding: 2rem; object-fit: contain;" alt="Neural Reasoning Icon">
+                        <span class="research-badge">LLM &amp; Reasoning</span>
+                    </div>
+                    <div class="research-content">
+                        <h4>Symbolic Reasoning in Deep Transformers</h4>
+                        <p>Introducing a novel architecture that embeds logical truth-tables directly into attention matrices, improving out-of-distribution math reasoning by 40%.</p>
+                        <a href="research.html" class="read-more-link">Read Paper <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                    </div>
+                </div>
+                <!-- Research Card 2 -->
+                <div class="glass-card research-card reveal fade-up" style="transition-delay: 0.1s;">
+                    <div class="research-img-wrapper">
+                        <img src="images/logo.svg" style="background-color: #0d1226; padding: 2rem; object-fit: contain;" alt="Robotics Icon">
+                        <span class="research-badge">Robotics &amp; Control</span>
+                    </div>
+                    <div class="research-content">
+                        <h4>Meta-Reinforcement Learning for Quadrupedal Locomotion</h4>
+                        <p>Detailing a zero-shot transfer system that allows physical robots to navigate highly irregular, slippery terrains using sparse visual feedback.</p>
+                        <a href="research.html" class="read-more-link">Read Paper <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                    </div>
+                </div>
+                <!-- Research Card 3 -->
+                <div class="glass-card research-card reveal fade-up" style="transition-delay: 0.2s;">
+                    <div class="research-img-wrapper">
+                        <img src="images/logo.svg" style="background-color: #0d1226; padding: 2rem; object-fit: contain;" alt="BioMed Icon">
+                        <span class="research-badge">Healthcare AI</span>
+                    </div>
+                    <div class="research-content">
+                        <h4>DeepGenerative: De Novo Protein Structure Synthesis</h4>
+                        <p>Leveraging diffusion models to generate highly stable, non-natural proteins designed to selectively bind with custom viral pathogens.</p>
+                        <a href="research.html" class="read-more-link">Read Paper <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         STATISTICS SECTION (NUMBERS)
+         ========================================== -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3 class="gradient-text"><span class="stat-counter" data-target="50">0</span>+</h3>
+                    <p>Research Projects</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="gradient-text"><span class="stat-counter" data-target="120">0</span>+</h3>
+                    <p>AI Models Released</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="gradient-text"><span class="stat-counter" data-target="35">0</span>+</h3>
+                    <p>Publications</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="gradient-text"><span class="stat-counter" data-target="25">0</span>+</h3>
+                    <p>Industry Partners</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         TESTIMONIALS SECTION
+         ========================================== -->
+    <section class="section-padding bg-sec">
+        <div class="container">
+            <h2 class="section-title reveal fade-up">Partner Testimonials</h2>
+            <p style="text-align: center; max-width: 600px; margin: -2rem auto 4rem auto;" class="reveal fade-up">
+                Hear from the technical leaders and research institutes collaborating with us to push the boundaries of technology.
+            </p>
+            
+            <div class="testimonial-grid">
+                <!-- Testimonial 1 -->
+                <div class="glass-card testimonial-card reveal fade-up">
+                    <div class="quote-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.75-2-2-2H4c-1.25 0-2 .75-2 2v4c0 1.25.75 2 2 2h2c0 2-1.75 3.5-3 4.5V21zm14 0c3 0 7-1 7-8V5c0-1.25-.75-2-2-2h-4c-1.25 0-2 .75-2 2v4c0 1.25.75 2 2 2h2c0 2-1.75 3.5-3 4.5V21z"></path></svg>
+                    </div>
+                    <p class="testimonial-text">
+                        "Collaborating with Dinirix AI & Research on our smart city project was a game changer. Their Edge AI models processed multi-spectral video streams directly on our local nodes, reducing latency from seconds to milliseconds."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="images/logo.svg" alt="Dr. Evelyn Vance" style="background-color: #0b1122;">
+                        </div>
+                        <div class="author-info">
+                            <h5>Dr. Evelyn Vance</h5>
+                            <p>Director of Infrastructure, Urban Tech Labs</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="glass-card testimonial-card reveal fade-up" style="transition-delay: 0.1s;">
+                    <div class="quote-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.75-2-2-2H4c-1.25 0-2 .75-2 2v4c0 1.25.75 2 2 2h2c0 2-1.75 3.5-3 4.5V21zm14 0c3 0 7-1 7-8V5c0-1.25-.75-2-2-2h-4c-1.25 0-2 .75-2 2v4c0 1.25.75 2 2 2h2c0 2-1.75 3.5-3 4.5V21z"></path></svg>
+                    </div>
+                    <p class="testimonial-text">
+                        "The mathematical precision of the Dinirix LLM reasoning architecture is impressive. It solved several symbolic logic tasks that standard commercial models failed to handle. Their safety-first stance is refreshing."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="images/logo.svg" alt="Marcus Thorne" style="background-color: #0b1122;">
+                        </div>
+                        <div class="author-info">
+                            <h5>Marcus Thorne</h5>
+                            <p>Chief Scientist, Apex NeuroSciences</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="glass-card testimonial-card reveal fade-up" style="transition-delay: 0.2s;">
+                    <div class="quote-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.75-2-2-2H4c-1.25 0-2 .75-2 2v4c0 1.25.75 2 2 2h2c0 2-1.75 3.5-3 4.5V21zm14 0c3 0 7-1 7-8V5c0-1.25-.75-2-2-2h-4c-1.25 0-2 .75-2 2v4c0 1.25.75 2 2 2h2c0 2-1.75 3.5-3 4.5V21z"></path></svg>
+                    </div>
+                    <p class="testimonial-text">
+                        "Dinirix brought deep computer vision expertise to our autonomous agricultural machinery. Their custom object detection algorithms perform flawlessly under dust, rain, and extreme lighting variations."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="images/logo.svg" alt="Sarah Jenkins" style="background-color: #0b1122;">
+                        </div>
+                        <div class="author-info">
+                            <h5>Sarah Jenkins</h5>
+                            <p>VP of Robotics, Ceres Agriculture</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         FAQ SECTION
+         ========================================== -->
+    <section class="section-padding">
+        <div class="container">
+            <h2 class="section-title reveal fade-up">Frequently Asked Questions</h2>
+            
+            <div class="faq-container reveal fade-up">
+                <!-- FAQ 1 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Is Dinirix AI &amp; Research separate from DinirixTech Labs?</span>
+                        <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Dinirix AI & Research operates as the dedicated scientific research division of DinirixTech Labs. While the parent company focuses on broader software solutions, we are exclusively focused on basic and applied artificial intelligence research, model training, and safety alignment.</p>
+                    </div>
+                </div>
+                <!-- FAQ 2 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Does Dinirix publish its research publicly?</span>
+                        <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes. A fundamental pillar of our division is academic transparency. We regularly submit our research to leading conferences such as NeurIPS, ICML, CVPR, and ACL, and make our preprints available on arXiv. We also open-source selected model weights and datasets.</p>
+                    </div>
+                </div>
+                <!-- FAQ 3 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How can enterprises collaborate with your research team?</span>
+                        <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Enterprises can partner with us through joint R&D initiatives, technology licensing, or custom model development contracts. Please reach out via our contact page to speak with a research coordinator about your specific use case.</p>
+                    </div>
+                </div>
+                <!-- FAQ 4 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What is Dinirix's approach to AI safety?</span>
+                        <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We advocate for "proactive safety alignment." Before training any model beyond 10^23 FLOPs, we perform extensive red-teaming, evaluate alignment metrics, and run vulnerability checks. We believe safety constraints must be co-engineered alongside capabilities, not patched afterwards.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         PARTNERS LOGO TICKER
+         ========================================== -->
+    <section class="partners-ticker bg-sec">
+        <div class="partners-slide">
+            <!-- Partner 1 -->
+            <div class="partner-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                NEXUS CORP
+            </div>
+            <!-- Partner 2 -->
+            <div class="partner-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+                APEX LABS
+            </div>
+            <!-- Partner 3 -->
+            <div class="partner-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M8 12h8M12 8v8"></path></svg>
+                QUANTUM AI
+            </div>
+            <!-- Partner 4 -->
+            <div class="partner-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="9" x2="15" y2="15"></line><line x1="15" y1="9" x2="9" y2="15"></line></svg>
+                VERTEX TECH
+            </div>
+            <!-- Partner 5 -->
+            <div class="partner-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                HORIZON SYS
+            </div>
+            
+            <!-- Repeat for seamless scrolling -->
+            <div class="partner-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                NEXUS CORP
+            </div>
+            <div class="partner-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+                APEX LABS
+            </div>
+            <div class="partner-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M8 12h8M12 8v8"></path></svg>
+                QUANTUM AI
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         CALL TO ACTION (CTA)
+         ========================================== -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="cta-glass reveal fade-up">
+                <h2 class="gradient-text">Join the AI Revolution</h2>
+                <p>We are constantly seeking brilliant minds to join our research labs, and visionary enterprises to co-develop the future. Let's build something extraordinary together.</p>
+                <div class="hero-buttons" style="justify-content: center;">
+                    <a href="careers.html" class="btn btn-primary">Join Our Team</a>
+                    <a href="contact.html" class="btn btn-secondary">Partner With Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         FOOTER SECTION
+         ========================================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Col 1: Brand info -->
+                <div class="footer-brand">
+                    <a href="index.html" class="logo-link">
+                        <img src="images/logo.svg" alt="Dinirix Logo" class="logo-img">
+                        <span class="logo-text gradient-text">DINIRIX</span>
+                    </a>
+                    <p>The official artificial intelligence research division of DinirixTech Labs. Shaping a better tomorrow through science, mathematical rigor, and ethical alignment.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+                        <a href="#" class="social-icon" aria-label="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a>
+                        <a href="#" class="social-icon" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+                    </div>
+                </div>
+                <!-- Col 2: Services -->
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">AI &amp; ML Consulting</a></li>
+                        <li><a href="services.html">Deep Learning Solutions</a></li>
+                        <li><a href="services.html">Computer Vision Systems</a></li>
+                        <li><a href="services.html">NLP &amp; Text Synthesis</a></li>
+                        <li><a href="services.html">Custom R&amp;D Contracts</a></li>
+                    </ul>
+                </div>
+                <!-- Col 3: Research Areas -->
+                <div class="footer-col">
+                    <h4>Research</h4>
+                    <ul class="footer-links">
+                        <li><a href="research.html">Large Language Models</a></li>
+                        <li><a href="research.html">Autonomous Robotics</a></li>
+                        <li><a href="research.html">Healthcare Diagnostics</a></li>
+                        <li><a href="research.html">TinyML &amp; Edge Systems</a></li>
+                        <li><a href="research.html">Academic Publications</a></li>
+                    </ul>
+                </div>
+                <!-- Col 4: Newsletter -->
+                <div class="footer-col footer-newsletter">
+                    <h4>Stay Updated</h4>
+                    <p>Subscribe to our monthly briefing for insights on our latest open-source models and papers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="researcher@institute.edu" required aria-label="Email address for newsletter">
+                        <button type="submit" class="btn btn-primary" style="padding: 0.85rem 1.5rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Bottom copyrights -->
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dinirix AI &amp; Research. All Rights Reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms &amp; Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==========================================
+         BACK TO TOP BUTTON
+         ========================================== -->
+    <button id="back-to-top" aria-label="Scroll back to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>

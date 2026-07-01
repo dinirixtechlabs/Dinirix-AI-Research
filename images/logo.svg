@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00C8FF" />
+      <stop offset="100%" stop-color="#7B2EFF" />
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#7B2EFF" />
+    </linearGradient>
+    
+    <!-- Glow Filter for Futuristic Look -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .brand-text {
+      font-family: 'Poppins', 'Inter', -apple-system, sans-serif;
+    }
+    .gradient-fill {
+      fill: url(#logoGrad);
+    }
+    .white-text {
+      fill: #FFFFFF;
+      font-weight: 800;
+    }
+    .tagline-text {
+      fill: #A0AEC0;
+      font-weight: 600;
+      font-size: 18px;
+      letter-spacing: 7px;
+    }
+    .icon-stroke {
+      stroke: #7B2EFF;
+      stroke-width: 2.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+    .icon-glow {
+      filter: drop-shadow(0px 0px 8px rgba(123, 46, 255, 0.4));
+    }
+    .divider {
+      stroke: rgba(255, 255, 255, 0.15);
+      stroke-width: 1.5;
+    }
+  </style>
+
+  <!-- Background Layer (Soft dark radial gradient for depth) -->
+  <radialGradient id="bgRadial" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#111827" stop-opacity="0.5" />
+    <stop offset="100%" stop-color="#0B1020" stop-opacity="0" />
+  </radialGradient>
+  <rect width="1200" height="800" fill="url(#bgRadial)" rx="20" />
+
+  <!-- MAIN LOGO MARK (D + DTL) - Translated to be perfectly centered in 1200px width -->
+  <g transform="translate(35, 30)">
+    <!-- Stylized D -->
+    <path class="gradient-fill" d="M 180,120 L 280,120 C 360,120 420,170 420,250 C 420,330 360,380 280,380 L 180,380 L 180,335 L 280,335 C 330,335 370,310 370,250 C 370,190 330,165 280,165 L 180,165 Z" />
+    
+    <!-- Speed Lines (Left of D) -->
+    <!-- Top Speed Line -->
+    <path d="M 180,200 L 70,200" stroke="url(#logoGrad)" stroke-width="9" stroke-linecap="round" />
+    <circle cx="70" cy="200" r="10" fill="url(#logoGrad)" />
+    
+    <!-- Middle Speed Line -->
+    <path d="M 180,250 L 50,250" stroke="url(#logoGrad)" stroke-width="9" stroke-linecap="round" />
+    
+    <!-- Bottom Speed Line -->
+    <path d="M 180,300 L 70,300" stroke="url(#logoGrad)" stroke-width="9" stroke-linecap="round" />
+    <circle cx="70" cy="300" r="10" fill="url(#logoGrad)" />
+
+    <!-- Code Symbol Inside the D cavity </> -->
+    <g transform="translate(20, 0)" stroke="url(#logoGrad)" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <!-- Left Angle Bracket < -->
+      <path d="M 215,225 L 195,250 L 215,275" stroke-width="10" />
+      <!-- Slash / -->
+      <path d="M 232,220 L 218,280" stroke-width="8" />
+      <!-- Right Angle Bracket > -->
+      <path d="M 235,225 L 255,250 L 235,275" stroke-width="10" />
+    </g>
+
+    <!-- Vectorized DTL Text (Slanted using skewX for italic effect, guaranteed to render identically everywhere) -->
+    <g transform="translate(450, 120) skewX(-12)" class="gradient-fill" filter="url(#neonGlow)">
+      <!-- Letter D -->
+      <path fill-rule="evenodd" d="M 0,0 L 120,0 C 185,0 220,50 220,130 C 220,210 185,260 120,260 L 0,260 Z M 60,50 L 60,210 L 110,210 C 145,210 160,180 160,130 C 160,80 145,50 110,50 Z" />
+      <!-- Letter T -->
+      <path d="M 240,0 L 440,0 L 440,50 L 370,50 L 370,260 L 310,260 L 310,50 L 240,50 Z" />
+      <!-- Letter L -->
+      <path d="M 460,0 L 520,0 L 520,210 L 630,210 L 630,260 L 460,260 Z" />
+    </g>
+  </g>
+
+  <!-- DIVISION NAME: DINIRIX AI & RESEARCH (Centered at x=600) -->
+  <text class="brand-text white-text" x="600" y="475" font-size="44" letter-spacing="5" text-anchor="middle">DINIRIX AI &amp; RESEARCH</text>
+
+  <!-- TAGLINE & HORIZONTAL LINES (Centered at x=600) -->
+  <g>
+    <!-- Left Line -->
+    <line x1="100" y1="528" x2="370" y2="528" stroke="url(#logoGrad)" stroke-width="2" opacity="0.8" />
+    
+    <!-- Tagline Text -->
+    <text class="brand-text tagline-text" x="604" y="534" text-anchor="middle">INNOVATE • DISCOVER • ADVANCE</text>
+    
+    <!-- Right Line -->
+    <line x1="830" y1="528" x2="1100" y2="528" stroke="url(#logoGrad)" stroke-width="2" opacity="0.8" />
+  </g>
+
+  <!-- 5 RESEARCH DIVISION ICONS (Perfect spacing at 200px intervals: 200, 400, 600, 800, 1000) -->
+  <g class="icon-glow" transform="translate(0, 40)">
+    <!-- Vertical Dividers (at 300, 500, 700, 900) -->
+    <line class="divider" x1="300" y1="580" x2="300" y2="670" />
+    <line class="divider" x1="500" y1="580" x2="500" y2="670" />
+    <line class="divider" x1="700" y1="580" x2="700" y2="670" />
+    <line class="divider" x1="900" y1="580" x2="900" y2="670" />
+
+    <!-- Icon 1: Brain (Center at x=200) -->
+    <g transform="translate(175, 600)">
+      <path class="icon-stroke" d="M 25,12 C 18,12 13,16 13,22 C 13,25 15,28 17,29 C 15,31 14,34 14,37 C 14,43 19,47 25,47 C 26,47 27,47 28,46 L 28,13 C 27,12 26,12 25,12 Z" />
+      <path class="icon-stroke" d="M 25,12 C 32,12 37,16 37,22 C 37,25 35,28 33,29 C 35,31 36,34 36,37 C 36,43 31,47 25,47 C 24,47 23,47 22,46 L 22,13 C 23,12 24,12 25,12 Z" />
+      <circle cx="20" cy="20" r="1.5" fill="#7B2EFF" />
+      <circle cx="18" cy="30" r="1.5" fill="#7B2EFF" />
+      <circle cx="21" cy="38" r="1.5" fill="#7B2EFF" />
+      <circle cx="30" cy="20" r="1.5" fill="#7B2EFF" />
+      <circle cx="32" cy="30" r="1.5" fill="#7B2EFF" />
+      <circle cx="29" cy="38" r="1.5" fill="#7B2EFF" />
+      <path d="M 20,20 L 18,30 L 21,38" stroke="#7B2EFF" stroke-width="1" stroke-dasharray="2,2" fill="none" opacity="0.6" />
+      <path d="M 30,20 L 32,30 L 29,38" stroke="#7B2EFF" stroke-width="1" stroke-dasharray="2,2" fill="none" opacity="0.6" />
+    </g>
+
+    <!-- Icon 2: Connected Head (Center at x=400) -->
+    <g transform="translate(375, 600)">
+      <path class="icon-stroke" d="M 16,42 C 16,36 19,32 23,30 C 21,28 20,25 20,22 C 20,15 25,10 31,10 C 37,10 42,15 42,22 C 42,25 41,28 39,30 C 43,32 46,36 46,42" />
+      <circle cx="31" cy="18" r="2.5" fill="#7B2EFF" />
+      <circle cx="26" cy="24" r="2.5" fill="#7B2EFF" />
+      <circle cx="36" cy="24" r="2.5" fill="#7B2EFF" />
+      <circle cx="31" cy="30" r="2.5" fill="#7B2EFF" />
+      <line x1="31" y1="18" x2="26" y2="24" stroke="#7B2EFF" stroke-width="1.5" />
+      <line x1="31" y1="18" x2="36" y2="24" stroke="#7B2EFF" stroke-width="1.5" />
+      <line x1="26" y1="24" x2="31" y2="30" stroke="#7B2EFF" stroke-width="1.5" />
+      <line x1="36" y1="24" x2="31" y2="30" stroke="#7B2EFF" stroke-width="1.5" />
+      <line x1="26" y1="24" x2="36" y2="24" stroke="#7B2EFF" stroke-width="1.5" />
+    </g>
+
+    <!-- Icon 3: Chart with Loupe (Center at x=600) -->
+    <g transform="translate(575, 600)">
+      <rect class="icon-stroke" x="14" y="28" width="6" height="14" rx="1" />
+      <rect class="icon-stroke" x="23" y="20" width="6" height="22" rx="1" />
+      <rect class="icon-stroke" x="32" y="14" width="6" height="28" rx="1" />
+      <circle class="icon-stroke" cx="37" cy="20" r="7" />
+      <line class="icon-stroke" x1="42" y1="25" x2="48" y2="31" />
+    </g>
+
+    <!-- Icon 4: Database (Center at x=800) -->
+    <g transform="translate(775, 600)">
+      <ellipse class="icon-stroke" cx="25" cy="18" rx="15" ry="5" />
+      <path class="icon-stroke" d="M 10,18 L 10,26 C 10,29 17,31 25,31 C 33,31 40,29 40,26 L 40,18" />
+      <path class="icon-stroke" d="M 10,27 L 10,35 C 10,38 17,40 25,40 C 33,40 40,38 40,35 L 40,27" />
+      <path class="icon-stroke" d="M 10,36 L 10,44 C 10,47 17,49 25,49 C 33,49 40,47 40,44 L 40,36" />
+      <circle cx="15" cy="24" r="1" fill="#00C8FF" />
+      <circle cx="15" cy="33" r="1" fill="#00C8FF" />
+      <circle cx="15" cy="42" r="1" fill="#00C8FF" />
+    </g>
+
+    <!-- Icon 5: Microscope (Center at x=1000) -->
+    <g transform="translate(975, 600)">
+      <path class="icon-stroke" d="M 14,45 L 36,45" />
+      <path class="icon-stroke" d="M 32,45 C 32,35 34,25 28,20 C 25,18 20,20 20,20" />
+      <path class="icon-stroke" d="M 16,35 L 28,35" />
+      <path class="icon-stroke" d="M 22,14 L 14,26" />
+      <path class="icon-stroke" d="M 24,15 L 16,27" stroke-width="1.5" />
+      <line class="icon-stroke" x1="18" y1="28" x2="20" y2="31" />
+      <circle cx="22" cy="41" r="1.5" fill="#7B2EFF" />
+    </g>
+  </g>
+</svg>

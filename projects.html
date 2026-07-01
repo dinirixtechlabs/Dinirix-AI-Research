@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore active projects and prototypes engineered by Dinirix AI & Research, including AI assistants, object detection systems, and healthcare models.">
+    <meta name="keywords" content="AI Projects, Deep Learning Prototypes, AI Chatbot, Computer Vision Systems, Smart Healthcare AI, Traffic Prediction, TensorFlow, PyTorch">
+    <link rel="canonical" href="https://research.dinirix.com/projects.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://research.dinirix.com/projects.html">
+    <meta property="og:title" content="Our Projects | Dinirix AI & Research">
+    <meta property="og:description" content="Explore the innovative AI systems and prototypes engineered by our research divisions.">
+    <meta property="og:image" content="images/logo.svg">
+
+    <title>Our Projects | Dinirix AI & Research</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+</head>
+<body>
+
+    <!-- ==========================================
+         PRELOADER SCREEN
+         ========================================== -->
+    <div id="preloader">
+        <div class="loader-content">
+            <object data="images/logo.svg" type="image/svg+xml" class="loader-logo" aria-label="Dinirix AI & Research Logo"></object>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================
+         STICKY HEADER & NAVIGATION
+         ========================================== -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo-link">
+                <img src="images/logo.svg" alt="Dinirix AI & Research Logo" class="logo-img">
+                <span class="logo-text gradient-text">DINIRIX</span>
+            </a>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="about.html">About</a></li>
+                    <li class="nav-item"><a href="services.html">Services</a></li>
+                    <li class="nav-item"><a href="research.html">Research</a></li>
+                    <li class="nav-item"><a href="projects.html" class="active">Projects</a></li>
+                    <li class="nav-item"><a href="careers.html">Careers</a></li>
+                    <li class="nav-item"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <button class="hamburger" aria-label="Toggle Navigation Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ==========================================
+         HERO SECTION (INNER PAGE STYLE)
+         ========================================== -->
+    <section class="hero" style="min-height: 55vh; padding-top: 120px;">
+        <canvas id="particle-canvas"></canvas>
+        <div class="container" style="position: relative; z-index: 2;">
+            <div style="text-align: center; max-width: 800px; margin: 0 auto;" class="reveal fade-up">
+                <div class="hero-tag">
+                    <span></span>Systems &amp; Applications
+                </div>
+                <h1 style="font-size: 3.5rem; margin-bottom: 1.5rem;">Innovations in Action</h1>
+                <p class="hero-subtitle" style="margin-bottom: 0;">
+                    From experimental algorithms to production-grade intelligence. Review our portfolio of open-source projects, active research codebases, and enterprise applications.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         6 PREMIUM PROJECT CARDS
+         ========================================== -->
+    <section class="section-padding bg-sec">
+        <div class="container">
+            <h2 class="section-title reveal fade-up">Featured Portfolios</h2>
+            <p style="text-align: center; max-width: 600px; margin: -2rem auto 4rem auto;" class="reveal fade-up">
+                An overview of our core software deployments, detailing their technologies, objectives, and development status.
+            </p>
+            
+            <div class="projects-grid">
+                <!-- Project 1: AI Chatbot -->
+                <div class="glow-card project-card glass-card reveal fade-up">
+                    <div class="project-img-wrapper">
+                        <img src="images/logo.svg" style="background-color: #0d1226; padding: 2.5rem; object-fit: contain;" alt="AI Chatbot Visual">
+                        <span class="project-status status-completed">Completed</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tech">
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">Transformers</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">FastAPI</span>
+                        </div>
+                        <h3>Dinirix Chatbot Engine</h3>
+                        <p>A highly customized dialogue system designed for corporate customer service. Utilizes a proprietary 13-billion parameter LLM fine-tuned for high-accuracy retrieval-augmented generation and low-latency responses.</p>
+                        <a href="contact.html" class="btn btn-secondary" style="padding: 0.5rem 1.5rem; font-size: 0.85rem; align-self: flex-start;">Request Demo</a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Object Detection -->
+                <div class="glow-card project-card glass-card reveal fade-up" style="transition-delay: 0.1s;">
+                    <div class="project-img-wrapper">
+                        <img src="images/logo.svg" style="background-color: #0d1226; padding: 2.5rem; object-fit: contain;" alt="Object Detection Visual">
+                        <span class="project-status status-ongoing">Ongoing</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tech">
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">CUDA</span>
+                            <span class="tech-tag">YOLOv8</span>
+                            <span class="tech-tag">TensorRT</span>
+                        </div>
+                        <h3>Real-time Spatial Tracking</h3>
+                        <p>An advanced computer vision engine designed for industrial automation. Performs multi-object detection, semantic segmentation, and speed tracking on 4K video feeds at 120 FPS using optimized TensorRT pipelines.</p>
+                        <a href="contact.html" class="btn btn-secondary" style="padding: 0.5rem 1.5rem; font-size: 0.85rem; align-self: flex-start;">Request Demo</a>
+                    </div>
+                </div>
+
+                <!-- Project 3: Smart Healthcare -->
+                <div class="glow-card project-card glass-card reveal fade-up" style="transition-delay: 0.2s;">
+                    <div class="project-img-wrapper">
+                        <img src="images/logo.svg" style="background-color: #0d1226; padding: 2.5rem; object-fit: contain;" alt="Smart Healthcare Visual">
+                        <span class="project-status status-research">Research</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tech">
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">MONAI</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">UNet3D</span>
+                        </div>
+                        <h3>Cognitive MRI Diagnostics</h3>
+                        <p>A deep learning model trained on multi-modal MRI scans to identify early markers of neurodegenerative diseases. Achieves 94.2% sensitivity in detecting micro-structural changes in brain tissue.</p>
+                        <a href="contact.html" class="btn btn-secondary" style="padding: 0.5rem 1.5rem; font-size: 0.85rem; align-self: flex-start;">Request Demo</a>
+                    </div>
+                </div>
+
+                <!-- Project 4: Smart Agriculture -->
+                <div class="glow-card project-card glass-card reveal fade-up">
+                    <div class="project-img-wrapper">
+                        <img src="images/logo.svg" style="background-color: #0d1226; padding: 2.5rem; object-fit: contain;" alt="Smart Agriculture Visual">
+                        <span class="project-status status-prototype">Prototype</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tech">
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Scikit-Learn</span>
+                            <span class="tech-tag">IoT Hub</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                        <h3>AgriPredict Crop Analyst</h3>
+                        <p>An agricultural prediction system integrating satellite imagery and local soil-sensor streams. Predicts crop yield trends, identifies nutrient deficiencies, and suggests localized watering schedules via mobile alerts.</p>
+                        <a href="contact.html" class="btn btn-secondary" style="padding: 0.5rem 1.5rem; font-size: 0.85rem; align-self: flex-start;">Request Demo</a>
+                    </div>
+                </div>
+
+                <!-- Project 5: AI Assistant -->
+                <div class="glow-card project-card glass-card reveal fade-up" style="transition-delay: 0.1s;">
+                    <div class="project-img-wrapper">
+                        <img src="images/logo.svg" style="background-color: #0d1226; padding: 2.5rem; object-fit: contain;" alt="AI Assistant Visual">
+                        <span class="project-status status-completed">Completed</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tech">
+                            <span class="tech-tag">Transformers</span>
+                            <span class="tech-tag">FastAPI</span>
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">SQLAlchemy</span>
+                        </div>
+                        <h3>Dinirix CodePilot</h3>
+                        <p>An autonomous coding assistant integrated into IDEs. Synthesizes complex functions, writes unit tests, and documents codebases in real-time, matching the coding style of the host repository.</p>
+                        <a href="contact.html" class="btn btn-secondary" style="padding: 0.5rem 1.5rem; font-size: 0.85rem; align-self: flex-start;">Request Demo</a>
+                    </div>
+                </div>
+
+                <!-- Project 6: Traffic Prediction -->
+                <div class="glow-card project-card glass-card reveal fade-up" style="transition-delay: 0.2s;">
+                    <div class="project-img-wrapper">
+                        <img src="images/logo.svg" style="background-color: #0d1226; padding: 2.5rem; object-fit: contain;" alt="Traffic Prediction Visual">
+                        <span class="project-status status-research">Research</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tech">
+                            <span class="tech-tag">GNNs</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">SUMO Sim</span>
+                            <span class="tech-tag">PyTorch Geometric</span>
+                        </div>
+                        <h3>Metropolitan Flow Routing</h3>
+                        <p>A Spatio-Temporal Graph Neural Network (ST-GNN) designed to forecast urban traffic congestion. Simulates multi-agent vehicular routing to optimize traffic signal timings in real time, reducing idle times by 18%.</p>
+                        <a href="contact.html" class="btn btn-secondary" style="padding: 0.5rem 1.5rem; font-size: 0.85rem; align-self: flex-start;">Request Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         DEMO REQUEST (CTA)
+         ========================================== -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="cta-glass reveal fade-up">
+                <h2 class="gradient-text">Interested in a Live Deployment Demo?</h2>
+                <p>We host sandbox environments for our completed and prototype projects. Request secure API keys or a guided virtual walkthrough with our deployment engineers.</p>
+                <div class="hero-buttons" style="justify-content: center;">
+                    <a href="contact.html" class="btn btn-primary">Request Sandbox Access</a>
+                    <a href="services.html" class="btn btn-secondary">Explore AI Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         FOOTER SECTION
+         ========================================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Col 1: Brand info -->
+                <div class="footer-brand">
+                    <a href="index.html" class="logo-link">
+                        <img src="images/logo.svg" alt="Dinirix Logo" class="logo-img">
+                        <span class="logo-text gradient-text">DINIRIX</span>
+                    </a>
+                    <p>The official artificial intelligence research division of DinirixTech Labs. Shaping a better tomorrow through science, mathematical rigor, and ethical alignment.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+                        <a href="#" class="social-icon" aria-label="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a>
+                        <a href="#" class="social-icon" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+                    </div>
+                </div>
+                <!-- Col 2: Services -->
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">AI &amp; ML Consulting</a></li>
+                        <li><a href="services.html">Deep Learning Solutions</a></li>
+                        <li><a href="services.html">Computer Vision Systems</a></li>
+                        <li><a href="services.html">NLP &amp; Text Synthesis</a></li>
+                        <li><a href="services.html">Custom R&amp;D Contracts</a></li>
+                    </ul>
+                </div>
+                <!-- Col 3: Research Areas -->
+                <div class="footer-col">
+                    <h4>Research</h4>
+                    <ul class="footer-links">
+                        <li><a href="research.html">Large Language Models</a></li>
+                        <li><a href="research.html">Autonomous Robotics</a></li>
+                        <li><a href="research.html">Healthcare Diagnostics</a></li>
+                        <li><a href="research.html">TinyML &amp; Edge Systems</a></li>
+                        <li><a href="research.html">Academic Publications</a></li>
+                    </ul>
+                </div>
+                <!-- Col 4: Newsletter -->
+                <div class="footer-col footer-newsletter">
+                    <h4>Stay Updated</h4>
+                    <p>Subscribe to our monthly briefing for insights on our latest open-source models and papers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="researcher@institute.edu" required aria-label="Email address for newsletter">
+                        <button type="submit" class="btn btn-primary" style="padding: 0.85rem 1.5rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Bottom copyrights -->
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dinirix AI &amp; Research. All Rights Reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms &amp; Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==========================================
+         BACK TO TOP BUTTON
+         ========================================== -->
+    <button id="back-to-top" aria-label="Scroll back to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
